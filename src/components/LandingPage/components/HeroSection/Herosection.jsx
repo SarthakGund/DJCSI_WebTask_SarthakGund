@@ -18,7 +18,9 @@ export default function () {
                     <div className='flex justify-center mt-[50px]'>
                         <div className="watch-now  w-[85%] flex items-center 3xl:text-2xl 2xl:text-xl xl:text-md lg:text-md md:text-base sm:text-sm font-semibold">
                                 <button className='bg-[#1A945F] h-[38px] w-[38px] flex justify-center items-center rounded-[19px] flex-row mr-[20px]'>
+                                    <a  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
                                     <Image height={13} width={13} src="/assets/play.svg" alt="" />
+                                    </a>
                                 </button>
                             Watch video
                         </div>

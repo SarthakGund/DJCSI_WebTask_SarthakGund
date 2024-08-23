@@ -25,7 +25,7 @@ export default function Facilities() {
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni, totam pariatur quos id, dolorem delectus, explicabo suscipit unde voluptatibus alias iusto officia.
             </div>
             <div className="contact-now my-[40px]">
-                <button className="contact-now-btn bg-[#1A945F] text-white  h-[44px] w-[140px] rounded-[22px]">
+                <button className="contact-now-btn text-white  h-[44px] w-[140px] rounded-[22px]">
                     Contact Now
                 </button>
             </div>

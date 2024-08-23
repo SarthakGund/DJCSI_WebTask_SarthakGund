@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function (props) {
   return (
-    <div className="hotel-card bg-white rounded-[14px] shadow-lg w-[350px] flex flex-col my-[40px]">
+    <div className="hotel-card bg-white rounded-[14px] shadow-lg w-[350px] flex flex-col my-[40px] transform transition-transform duration-200 hover:scale-105 cursor-pointer">
       <div className="relative w-full">
         <Image src={`/assets/hotel_${props.id}.png`} alt="Danubius Hotel Regents Park" height={400} width={400} />
       </div>
